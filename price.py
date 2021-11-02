@@ -99,8 +99,8 @@ def amazon_main():
         server.ehlo()
         server.starttls()
         server.ehlo()
-        sender_email = 'yadavyogesh404@gmail.com'
-        sender_password = 'wdinfqxzuvtwqmqy'
+        sender_email = 'email- ex: xyz@gmail.com'
+        sender_password = 'yourpassword(which is less secure password given by google)'
         server.login(sender_email, sender_password)
 
         subject = title + 'price has dropped to Rs.' + price[1:] + '!'
